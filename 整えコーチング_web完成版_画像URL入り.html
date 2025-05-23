@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>子どもの整えコーチング｜学びと心のサポート室</title>
+  <style>
+    body {
+      font-family: 'Yu Gothic', sans-serif;
+      background: #ffffff;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    nav {
+      background: #388e3c;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #2E7D32;
+    }
+    .flex {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .plan {
+      background: #f0fdf4;
+      border-left: 6px solid #4CAF50;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-radius: 8px;
+    }
+    .price {
+      font-weight: bold;
+      color: #388e3c;
+    }
+    .faq-item {
+      border-bottom: 1px solid #ddd;
+      padding: 10px 0;
+    }
+    .faq-question {
+      cursor: pointer;
+      font-weight: bold;
+      position: relative;
+      padding-right: 30px;
+    }
+    .faq-question::after {
+      content: '+';
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .faq-answer {
+      display: none;
+      margin-top: 5px;
+      padding-left: 10px;
+      color: #555;
+    }
+    .faq-item.active .faq-answer {
+      display: block;
+    }
+    .faq-item.active .faq-question::after {
+      content: '−';
+    }
+    .contact, .apply, .vision {
+      background: #f9f9f9;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>子どもの整えコーチング</h1>
+    <p>ADHDでも、やりたいをカタチにできるサポートを。</p>
+  </header>
+
+  <nav>
+    <a href="#worries">お悩み</a>
+    <a href="#services">サービス</a>
+    <a href="#faq">よくある質問</a>
+    <a href="#apply">お申し込み</a>
+    <a href="#contact">お問い合わせ</a>
+    <a href="#vision">私たちの想い</a>
+  </nav>
+
+  <div class="section" id="worries">
+    <div class="flex">
+      <img src="https://kunugi103.github.io/thinking_l.png" alt="考え中の猫" style="width: 200px;">
+      <div>
+        <h2>😺 こんなお悩みありませんか？</h2>
+        <p>「やりたいことがわからない」「勉強が続かない」「自分のペースを保てない」……<br>
+        そんなふうに、モヤモヤ悩んでいませんか？</p>
+        <p>くーちゃんの整えコーチングでは、心のもやもやから行動まで、あなたの「やってみたい」をそっとサポートします。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="services">
+    <h2>🌿 サービスプラン</h2>
+
+    <div class="plan">
+      <h3>🌱 整えスタート｜<span class="price">¥5,000 / 月</span></h3>
+      <ul>
+        <li>LINE週3回サポート</li>
+        <li>PDFテンプレ配布（週間予定・感情ログ）</li>
+        <li>ふりかえり提出＋ワンポイントアドバイス</li>
+      </ul>
+      <p><em>「まず動き出したい」「低負担で整えたい」人向け</em></p>
+    </div>
+
+    <div class="plan">
+      <h3>🌿 カタチづくり｜<span class="price">¥9,800 / 月</span></h3>
+      <ul>
+        <li>週1 Zoom30分＋LINE毎日チェック</li>
+        <li>GoodNotesテンプレ／声かけリスト配布</li>
+        <li>集中ワーク／マインドフルネスガイド付き</li>
+      </ul>
+      <p><em>「やる気はあるけど計画が立てられない」人向け</em></p>
+    </div>
+
+    <div class="plan">
+      <h3>🌳 マイペース伴走｜<span class="price">¥15,000 / 月</span></h3>
+      <ul>
+        <li>Zoom週2 or 60分長時間対応</li>
+        <li>Notion管理／タスク整理＆設計</li>
+        <li>親向けレポート／生活全体の整え支援</li>
+      </ul>
+      <p><em>ADHD傾向が強め、受験や海外進学と両立したい人向け</em></p>
+    </div>
+  </div>
+
+  <div class="section" id="faq">
+    <h2>❓ よくあるご質問</h2>
+    <div class="faq-item">
+      <div class="faq-question">Q. どのプランが自分に合っているかわかりません。</div>
+      <div class="faq-answer">A. ご相談内容に応じて、初回ヒアリングで一緒に最適なプランをご提案いたします。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">Q. 保護者と一緒に受けてもいいですか？</div>
+      <div class="faq-answer">A. はい、親子でご一緒のご参加も歓迎しています。ご家庭での整え方もサポートします。</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">Q. ADHD診断がなくても受けられますか？</div>
+      <div class="faq-answer">A. はい、診断の有無に関わらず「集中が続かない・不安がある」と感じる方もご利用いただけます。</div>
+    </div>
+  </div>
+
+  <div class="section apply" id="apply">
+    <h2>📩 お申し込み</h2>
+    <p>現在はLINE WORKSまたはGoogleフォームで受け付けています。リンクは準備中です。</p>
+  </div>
+
+  <div class="section contact" id="contact">
+    <h2>📞 お問い合わせ</h2>
+    <p>ご相談・ご質問はLINEまたはメールにてお気軽にどうぞ。</p>
+  </div>
+
+  <div class="section vision" id="vision">
+    <h2>🕊 私たちの想い</h2>
+    <p>ひとりひとりの「やりたい」を、やさしく整えて応援したい。<br>
+    勉強だけじゃない、心の整理も大切にする場として、このサポート室を運営しています。</p>
+  </div>
+
+  <script>
+    document.querySelectorAll('.faq-question').forEach(item => {
+      item.addEventListener('click', () => {
+        item.parentElement.classList.toggle('active');
+      });
+    });
+  </script>
+
+</body>
+</html>
